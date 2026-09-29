@@ -1,3 +1,11 @@
 spring:
   application:
     name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: 'https://github.com/Haruto1508/fpt-microservice-learning.git'
+server:
+  port: 8888
